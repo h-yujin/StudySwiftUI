@@ -1,6 +1,6 @@
 # StudySwiftUI
 
-## 목차
+## 항목
 1. SimpleView - SwiftUI 기본 요소
 2. LayoutView - 여러 레이아웃
 3. OnBoardingView - 첫 시작 화면
