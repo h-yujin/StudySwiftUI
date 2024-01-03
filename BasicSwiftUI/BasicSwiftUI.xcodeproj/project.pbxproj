@@ -14,6 +14,7 @@
 		D494A0CA2B4581A300F70CC7 /* SimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D494A0C92B4581A300F70CC7 /* SimpleView.swift */; };
 		D494A0CC2B45898800F70CC7 /* LayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D494A0CB2B45898800F70CC7 /* LayoutView.swift */; };
 		D494A0CE2B458B5500F70CC7 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D494A0CD2B458B5500F70CC7 /* CustomButton.swift */; };
+		D494A0D22B45920400F70CC7 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D494A0D12B45920400F70CC7 /* OnBoardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		D494A0C92B4581A300F70CC7 /* SimpleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleView.swift; sourceTree = "<group>"; };
 		D494A0CB2B45898800F70CC7 /* LayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutView.swift; sourceTree = "<group>"; };
 		D494A0CD2B458B5500F70CC7 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		D494A0D12B45920400F70CC7 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				D494A0C92B4581A300F70CC7 /* SimpleView.swift */,
 				D494A0CB2B45898800F70CC7 /* LayoutView.swift */,
 				D494A0CD2B458B5500F70CC7 /* CustomButton.swift */,
+				D494A0D12B45920400F70CC7 /* OnBoardingView.swift */,
 				D494A0C12B457DD500F70CC7 /* Preview Content */,
 				D494A0BF2B457DD500F70CC7 /* Assets.xcassets */,
 			);
@@ -149,6 +152,7 @@
 				D494A0CC2B45898800F70CC7 /* LayoutView.swift in Sources */,
 				D494A0BE2B457DD400F70CC7 /* ContentView.swift in Sources */,
 				D494A0CA2B4581A300F70CC7 /* SimpleView.swift in Sources */,
+				D494A0D22B45920400F70CC7 /* OnBoardingView.swift in Sources */,
 				D494A0BC2B457DD400F70CC7 /* BasicSwiftUIApp.swift in Sources */,
 				D494A0CE2B458B5500F70CC7 /* CustomButton.swift in Sources */,
 			);
