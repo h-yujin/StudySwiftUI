@@ -2,13 +2,14 @@
 
 ## 목차
 1. SimpleView - SwiftUI 기본 요소
+2. LayoutView - 여러 레이아웃
  
 
 ---
 
 ## SwiftUI Controls
 
-#### Image
+### Image
     Image(systemName: "photo.tv")
     .resizable()
     .scaledToFit()
@@ -21,7 +22,7 @@
     .resizable()
     .frame(width: 200, height: 200)
 
-#### Text
+### Text
 
 modifier에 따라 결과가 달라질 수 있음.
 
