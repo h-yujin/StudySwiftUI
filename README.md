@@ -45,7 +45,7 @@ Button2 : 배경컬러를 넣고 padding을 넣음
 화면에서 사용 가능한 공간 전체를 띄움
 
 ### Hashable
-Swift에서 Set 타입의 값, Dictionay 티입의 Key는 Hashable 해야한다.  
+Swift에서 Set 타입의 값, Dictionay 타입의 Key는 Hashable 해야한다.  
 Swift의 기본 타입은 String, Int 등은 자동으로 Hashable 하다.  
 구조체를 Set타입으로 사용하기 위해서는 Hashable하게 채택해주어야 한다.  
 
