@@ -5,6 +5,8 @@
 2. LayoutView - 여러 레이아웃
 3. OnBoardingView - 첫 시작 화면
 4. ListView - 리스트와 모델링, 추가와 삭제
+5. SimpleListView - 리스트 Section
+6. ModalView, ModelDetailView - Model창 열고, 닫기
  
 
 ---
@@ -48,6 +50,11 @@ Button2 : 배경컬러를 넣고 padding을 넣음
 Swift에서 Set 타입의 값, Dictionay 타입의 Key는 Hashable 해야한다.  
 Swift의 기본 타입은 String, Int 등은 자동으로 Hashable 하다.  
 구조체를 Set타입으로 사용하기 위해서는 Hashable하게 채택해주어야 한다.  
+
+### @State, @Binding
+@State : 값의 변화가 있으면 뷰를 업데이트 시켜준다.  
+:collision: View의 Body에서만 접근해야 하므로 pricate 선언을 권장.  
+@Binding : @State의 변수에 $붙여서 사용한다.  
 
 
 
