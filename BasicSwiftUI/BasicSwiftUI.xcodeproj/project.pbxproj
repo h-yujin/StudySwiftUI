@@ -17,6 +17,8 @@
 		D494A0D22B45920400F70CC7 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D494A0D12B45920400F70CC7 /* OnBoardingView.swift */; };
 		D494A0D42B467C6F00F70CC7 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D494A0D32B467C6F00F70CC7 /* ListView.swift */; };
 		D494A0D62B468FDE00F70CC7 /* SimpleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D494A0D52B468FDE00F70CC7 /* SimpleListView.swift */; };
+		D494A0D82B4695D400F70CC7 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D494A0D72B4695D400F70CC7 /* ModalView.swift */; };
+		D494A0DA2B4696B700F70CC7 /* ModelDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D494A0D92B4696B700F70CC7 /* ModelDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		D494A0D12B45920400F70CC7 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
 		D494A0D32B467C6F00F70CC7 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		D494A0D52B468FDE00F70CC7 /* SimpleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleListView.swift; sourceTree = "<group>"; };
+		D494A0D72B4695D400F70CC7 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		D494A0D92B4696B700F70CC7 /* ModelDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 				D494A0D12B45920400F70CC7 /* OnBoardingView.swift */,
 				D494A0D32B467C6F00F70CC7 /* ListView.swift */,
 				D494A0D52B468FDE00F70CC7 /* SimpleListView.swift */,
+				D494A0D72B4695D400F70CC7 /* ModalView.swift */,
+				D494A0D92B4696B700F70CC7 /* ModelDetailView.swift */,
 				D494A0C12B457DD500F70CC7 /* Preview Content */,
 				D494A0BF2B457DD500F70CC7 /* Assets.xcassets */,
 			);
@@ -160,7 +166,9 @@
 				D494A0BE2B457DD400F70CC7 /* ContentView.swift in Sources */,
 				D494A0CA2B4581A300F70CC7 /* SimpleView.swift in Sources */,
 				D494A0D42B467C6F00F70CC7 /* ListView.swift in Sources */,
+				D494A0DA2B4696B700F70CC7 /* ModelDetailView.swift in Sources */,
 				D494A0D22B45920400F70CC7 /* OnBoardingView.swift in Sources */,
+				D494A0D82B4695D400F70CC7 /* ModalView.swift in Sources */,
 				D494A0BC2B457DD400F70CC7 /* BasicSwiftUIApp.swift in Sources */,
 				D494A0CE2B458B5500F70CC7 /* CustomButton.swift in Sources */,
 			);
