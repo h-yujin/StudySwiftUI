@@ -7,6 +7,9 @@
 4. ListView - 리스트와 모델링, 추가와 삭제
 5. SimpleListView - 리스트 Section
 6. ModalView, ModelDetailView - Model창 열고, 닫기
+7. NavigationView - NavigationStack, List, NavigationLink
+8. MyTabView, TabDetailView - 탭뷰
+9. MyApp, OnBoardingPageView. FirstListView - 온보딩, 탭뷰, 리스트를 활용한 간단한 화면 제작
  
 
 ---
