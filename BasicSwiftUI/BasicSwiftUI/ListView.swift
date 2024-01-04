@@ -15,7 +15,7 @@ struct Fruit: Hashable {
 
 struct ListView: View {
     
-    var favoritFruits = [
+    @State var favoritFruits = [
         Fruit(name: "Apple", matchFruitName: "Banana", price: 1000),
         Fruit(name: "Banana", matchFruitName: "Banana", price: 3000),
         Fruit(name: "Cherry", matchFruitName: "Durian", price: 4000),
@@ -23,11 +23,27 @@ struct ListView: View {
         Fruit(name: "Elder berry", matchFruitName: "Durian", price: 6000)
     ]
     
-//    private var fruits = ["apple", "banana", "cherry", "Durian", "Elder berry"]
-//    private var price = ["1000", "3000", "4000", "2400", "6000"]
+    @State var fruitName: String = ""
     
     var body: some View {
         NavigationStack {
+            VStack {
+                HStack {
+                    TextField("insert fruit name", text: $fruitName)
+                    Button(action: {
+                        favoritFruits.append(Fruit(name: fruitName, 
+                                                   matchFruitName: "Apple",
+                                                   price: 1000))
+                    }, label: {
+                        Text("insert")
+                            .padding()
+                            .background(.blue)
+                            .foregroundColor(.white)
+                            .cornerRadius(10)
+                    })
+                }
+                .padding()
+            }
             List {
                 ForEach(favoritFruits, id: \.self) { fruit in
                     VStack(alignment: .leading) {
@@ -35,9 +51,9 @@ struct ListView: View {
                         Text("\(fruit.matchFruitName)")
                         Text("\(fruit.price)")
                     }
-                    
-                    
-                }
+                }.onDelete(perform: { indexSet in
+                    favoritFruits.remove(atOffsets: indexSet)
+                })
             }
             .navigationTitle("Fruit List")
         }
