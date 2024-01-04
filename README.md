@@ -40,5 +40,5 @@ Button2 : 배경컬러를 넣고 padding을 넣음
     .foregroundColor(.white)
     .padding()
 
-### Spacer
+### Spacer
 화면에서 사용 가능한 공간 전체를 띄움
