@@ -1,8 +1,9 @@
 # StudySwiftUI
 
-## 목차
+## 항목
 1. SimpleView - SwiftUI 기본 요소
 2. LayoutView - 여러 레이아웃
+3. OnBoardingView - 첫 시작 화면
  
 
 ---
@@ -23,7 +24,6 @@
     .frame(width: 200, height: 200)
 
 ### Text
-
 modifier에 따라 결과가 달라질 수 있음.
 
 Button1 : padding을 넣고 배경컬러를 넣음
@@ -39,3 +39,6 @@ Button2 : 배경컬러를 넣고 padding을 넣음
     .background(.blue)
     .foregroundColor(.white)
     .padding()
+
+### Spacer
+화면에서 사용 가능한 공간 전체를 띄움
